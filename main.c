@@ -34,7 +34,7 @@ void output_count(unsigned long long int count[X*X][X*X])
 
 int main()
 {
-	unsigned long long int count[X*X][X*X];
+	unsigned long long int count[X*X][X*X]={{0}};
 	int ms[X*X];
 	int i;
 	char str[0xffff];
