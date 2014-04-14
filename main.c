@@ -24,6 +24,7 @@ void output_count(unsigned long long int count[X*X][X*X])
 		printf(" %d", i);
 	putchar('\n');
 	for(i=0; i<X*X; i++){
+		printf("%d", i+1);
 		for(j=0; j<X*X; j++)
 			printf(" %llu", count[i][j]);
 		putchar('\n');
